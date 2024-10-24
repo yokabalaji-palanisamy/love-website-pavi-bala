@@ -23,6 +23,7 @@ function App () {
     { img: '1 (5).jpg', alt: 'img' },
     { img: '1 (6).jpg', alt: 'img' },
     { img: '1 (7).jpg', alt: 'img' },
+
     { img: '1 (8).jpg', alt: 'img' }
   ]
 
