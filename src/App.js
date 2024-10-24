@@ -26,6 +26,7 @@ function App () {
     { img: '1 (8).jpg', alt: 'img' }
   ]
 
+  
   return (
     <div className='flex justify-center items-center h-full'>
       <div className='content relative'>
