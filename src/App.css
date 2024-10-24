@@ -1,0 +1,92 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f7fc;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
+
+.love-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 2.5rem;
+  color: #ff6666;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hearts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+} */
+
+.heart {
+  font-size: 2rem;
+  color: red;
+  animation: float 2s ease-in-out infinite;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.images_flot {
+  animation: images_flot 2s ease-in-out infinite;
+  transform: translateY(100%);
+  opacity: 0;
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@keyframes images_flot {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
